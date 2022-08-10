@@ -1,13 +1,13 @@
 {
-  "name": "redux-starter",
+  "name": "bug-app",
   "version": "1.0.0",
-  "description": "Redux Starter Project",
+  "description": "Learning Redux by creating Bug Tracker App",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js"
+    "start": "npm start"
   },
   "keywords": [],
-  "author": "Mosh Hamedani",
+  "author": "NS",
   "license": "ISC",
   "devDependencies": {
     "webpack": "4.41.6",

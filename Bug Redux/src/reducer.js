@@ -2,7 +2,8 @@ let lastId =  0
 export default function reducer (state = [],action) {
     if(action.type == 'bugAdded') {
         return [
-            ...state,{
+            ...state,
+            {
                 id : ++lastId,
                 description :action.paylaod.description,
                 resolved : false
