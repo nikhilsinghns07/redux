@@ -1,0 +1,15 @@
+{
+  "name": "udemy-redux",
+  "version": "1.0.0",
+  "description": "Learning React-Redux",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon redux-demo.js"
+  },
+  "author": "NS",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "redux": "^4.2.0"
+  }
+}
